@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# boostrap the puppet_server in docker container
+# boostrap the nginx in docker container
 # This will :
 #  1. Update the nginx config under /etc/nginx/sites-enabled/default
 #  2. Starts nginx in foreground
