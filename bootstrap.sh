@@ -2,8 +2,8 @@
 
 # boostrap the puppet_server in docker container
 # This will :
-#  1. Update the puppet master host in puppet.conf file under /etc/puppet 
-#  2. Starts puppetdb in foreground
+#  1. Update the nginx config under /etc/nginx/sites-enabled/default
+#  2. Starts nginx in foreground
 
 set -xe
 
